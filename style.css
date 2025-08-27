@@ -55,7 +55,14 @@ body {
 
 .actions__button-group {
   display: flex;
-  justify-content: right;
+  align-items: center;
+  justify-content: center;
+  /* ОТСТУП */
+  margin-bottom: 20px;
+}
+
+.list-products {
+  display: none;
 }
 
 .button {
@@ -75,4 +82,35 @@ body {
 
 .button img {
   margin-right: 5px;
+}
+
+.list-product__inner {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  /* ОТСТУП */
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 300;
+}
+
+.item-bold {
+  font-weight: 700;
+  margin-bottom: 5px;
 }
